@@ -1,0 +1,117 @@
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 45px;
+    margin-top: 10px;
+    margin-left: 40%;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+
+}
+
+body {
+    height: 100vh;
+    background-image: url("backimag.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.content {
+    width: 40%;
+    top: 45%;
+    left: 70%;
+    background: transparent;
+    border-radius: 10px;
+    min-width: 450px;
+    position: absolute;
+    min-height: 100px;
+    transform: translate(-50%, -50%);
+}
+
+#nexttask {
+    position: relative;
+    padding: 30px 20px;
+}
+
+#nexttask input {
+    width: 75%;
+    height: 45px;
+    padding: 12px;
+    background-color: white;
+    color: #111111;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    border: 2px solid #939697;
+}
+
+#nexttask input:focus {
+    outline: none;
+    border-color: aliceblue;
+}
+
+#nexttask button {
+    position: relative;
+    float: right;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: rgb(22, 49, 22);
+    border: none;
+    color: whitesmoke;
+    cursor: pointer;
+    outline: none;
+    width: 20%;
+    height: 45px;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#tasks {
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+    background: transparent;
+    padding: 30px 20px;
+    margin-top: 10px;
+}
+
+.task {
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    background-color: rgba(65, 89, 81, 0.633);
+    height: 40px;
+    margin-bottom: 4px;
+    padding: 5px 10px;
+    display: flex;
+
+    color: azure;
+
+}
+
+.task span {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.task button {
+    background-color: rgb(22, 49, 22);
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    color: whitesmoke;
+    cursor: pointer;
+    outline: none;
+    height: 100%;
+    width: 7%;
+    border-radius: 50%;
+}
